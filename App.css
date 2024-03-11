@@ -1,0 +1,62 @@
+html {
+  background-color: beige;
+}
+h1 {
+  font-size: 24px;
+  margin: 0;
+  background-color: rgb(189, 76, 76);
+  padding: 5px;
+}
+h2 {
+  font-size: 22px;
+  margin: 0;
+  padding: 10px;
+  color: #ff0000;
+}
+
+.center {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.player {
+  margin: 10px;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(190, 101, 101);
+}
+.round-btn {
+  width: 100px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  margin: 2px;
+  cursor: pointer;
+  color: #fafafa;
+  background-color: black;
+}
+
+.round-btn:hover {
+  color: aqua;
+}
+.score {
+  padding: 1px;
+  font-size: small;
+  font-weight: bold;
+  background-color: #e21f1f;
+  display: flex;
+  flex-direction: column;
+}
+.action {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
